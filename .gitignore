@@ -1,0 +1,24 @@
+# Build output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Downloaded Workday data (may contain financial / personal data)
+Downloads/
+Downloads*/
+VCF/
+Run_*/
+*.pgp
+
+# Logs
+*.log
+
+# Secrets and local settings - never commit
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+*.pfx
+.env
